@@ -1,0 +1,93 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+
+body {
+
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/random/1920x1080");
+
+}
+
+.caixa-maior {
+
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 350px;
+}
+
+.input-cidade{
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20 px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100%-100);
+    
+}
+
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 100px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+
+}
+
+.img-busca{
+    width: 20px;
+
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: white;
+    font-size: 28;
+    font-weight: 300;
+
+}
+
+.temp{
+    font-size: 21px;
+    color: white;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: white;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: white;
+    margin-top: 20px;
+}
